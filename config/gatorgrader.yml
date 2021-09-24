@@ -16,7 +16,7 @@ indent: 4
 primality/primality/main.py:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    CountMultipleLineComments --language Python --count 8
+    CountMultipleLineComments --language Python --count 7
     CountSingleLineComments --language Python --count 25
 
 # --> check the Python program
