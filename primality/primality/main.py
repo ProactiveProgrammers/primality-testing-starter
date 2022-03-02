@@ -38,7 +38,7 @@ def pretty_print_list(values: Iterable[int]) -> str:
     """Pretty print a list without brackets and adding commas."""
     # TODO: create and return a version of the list without brackets
     # and with commas in between all of the values
-    # This return value is a placeholder
+    # TODO: This return value is a placeholder; replace it with a correct one
     return ""
 
 def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]:
@@ -54,7 +54,7 @@ def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]:
     # --> a bool for whether or not the number was prime
     # --> a List[int] for the list with the smallest divisor for the number
     # --> if the number is prime, return the List[int] with both the number and 1
-    # This return value is a placeholder
+    # TODO: This return value is a placeholder; replace it with a correct one
     return (False, [0,1])
 
 
@@ -69,7 +69,8 @@ def primality_test_efficient(x: int) -> Tuple[bool, List[int]]:
     # --> a bool for whether or not the number was prime
     # --> a List[int] for the list with the smallest divisor for the number
     # --> if the number is prime, return the List[int] with both the number and 1
-    # This return value is a placeholder
+    # TODO: This return value is a placeholder; replace it with a correct one
+    return (False, [0,1])
 
 
 @cli.command()
