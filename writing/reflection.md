@@ -1,5 +1,9 @@
 # Primality Testing
 
+TODO: Please delete all of the TODO markers from this file so that you have a
+professionally formatted and organized reflection that would be suitable for
+posting on a public web site.
+
 ## Add Your Name Here
 
 ## Program Output
@@ -42,6 +46,16 @@ TODO: Use a fenced code block to provide the output for this command.
 TODO: Provide one paragraph that states which algorithm is fastest, by how much
 it is faster, and how you knew that the it was faster, referencing the data in
 the aforementioned command outputs to support your response.
+
+TODO: Make sure that you refer to the online description of this project at:
+
+https://proactiveprogrammers.com/data-abstraction/engineering-efforts/primality-testing/
+
+TODO: Use the description of the T_Delta variable, or the percentage change in
+the execution time when running `primality` in efficient mode instead of
+exhaustive, when you are reporting on your performance analysis. That is, you
+should be able to use the equation in the project description to explain how
+much faster one algorithm is compared to the other.
 
 ## Source Code
 
