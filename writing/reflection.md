@@ -53,7 +53,7 @@ https://proactiveprogrammers.com/data-abstraction/engineering-efforts/primality-
 
 TODO: Use the description of the T_Delta variable, or the percentage change in
 the execution time when running `primality` in efficient mode instead of
-exhaustive, when you are reporting on your performance analysis. That is, you
+exhaustive, when you are describing your performance analysis. That is, you
 should be able to use the equation in the project description to explain how
 much faster one algorithm is compared to the other.
 
@@ -64,12 +64,12 @@ much faster one algorithm is compared to the other.
 #### A function that converts a `bool` into a human readable `str` value
 
 TODO: Use a fenced code block to provide the requested source code
-TODO: Write at least one paragraph to explain the request source code
+TODO: Write at least one paragraph to explain the requested source code
 
 #### A function signature that defines the command-line interface for `primality`
 
 TODO: Use a fenced code block to provide the requested source code
-TODO: Write at least one paragraph to explain the request source code
+TODO: Write at least one paragraph to explain the requested source code
 
 ### What was the greatest challenge that you faced when completing this assignment?
 
