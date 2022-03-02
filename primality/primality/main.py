@@ -16,6 +16,8 @@ from rich.console import Console
 # TODO: create a Typer object to support the command-line interface
 
 # TODO: create a Profiler object to support timing program code segments
+# TODO: Refer to https://github.com/joerick/pyinstrument to learn more
+# about how you need to construct the Profiler object
 
 
 class PrimalityTestingApproach(str, Enum):
