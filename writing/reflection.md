@@ -75,6 +75,6 @@ TODO: Write at least one paragraph to explain the requested source code
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
-### Based on your experiences with this project, what is one way in which you want to improve?
+### How does the `pyinstrument` tool help you to evaluate the performance of a Python program?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
