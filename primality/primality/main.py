@@ -1,17 +1,8 @@
 """Perform primality testing with both exhaustive and efficient approaches."""
 
-from pyinstrument import Profiler  # type: ignore
-
-from typing import Iterable
-from typing import List
-from typing import Tuple
-
-from enum import Enum
-from pathlib import Path
-
-import typer
-
-from rich.console import Console
+# TODO: Add all of the required imports for the program,
+# ensuring that they are in the correct order mandated
+# by the industry-standard set by the isort program
 
 # TODO: create a Typer object to support the command-line interface
 
