@@ -14,8 +14,8 @@
 class PrimalityTestingApproach(str, Enum):
     """Define the name for the approach for performing primality testing."""
 
-    exhaustive = "exhaustive"
-    efficient = "efficient"
+    EXHAUSTIVE = "exhaustive"
+    EFFICIENT = "efficient"
 
 
 def human_readable_boolean(answer: bool) -> str:
@@ -34,7 +34,7 @@ def pretty_print_list(values: Iterable[int]) -> str:
     # TODO: This return value is a placeholder; replace it with a correct one
     return ""
 
-def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]:
+def primality_test_exhaustive(number: int) -> Tuple[bool, List[int]]:
     """Perform an exhaustive primality test on the provided integer."""
     # TODO: declare the smallest_divisor with default of None
     # TODO: exhaustively search through all of the values, starting at 2
@@ -51,7 +51,7 @@ def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]:
     return (False, [0,1])
 
 
-def primality_test_efficient(x: int) -> Tuple[bool, List[int]]:
+def primality_test_efficient(number: int) -> Tuple[bool, List[int]]:
     """Perform an efficient primality test on the provided integer."""
     smallest_divisor = None
     # TODO: determine first if the number is even and then confirm
@@ -70,7 +70,7 @@ def primality_test_efficient(x: int) -> Tuple[bool, List[int]]:
 def primality(
     number: int = typer.Option(5),
     profile: bool = typer.Option(False),
-    approach: PrimalityTestingApproach = PrimalityTestingApproach.efficient,
+    approach: PrimalityTestingApproach = PrimalityTestingApproach.EFFICIENT,
 ) -> None:
     """Use iteration to perform primality testing on a number and run a profiling data collection if requested."""
     # create a console for rich text output
@@ -78,13 +78,13 @@ def primality(
     # create an empty primality_tuple
     primality_tuple: Tuple[bool, List[int]]
     # TODO: use the efficient primality testing algorithm
-    if approach.value == PrimalityTestingApproach.efficient:
+    if approach.value == PrimalityTestingApproach.EFFICIENT:
         # Reference for more details:
         # https://github.com/joerick/pyinstrument
         # TODO: perform profiling on the execution of the primality test
         # TODO: do not perform profiling
     # TODO: use the exhaustive primality testing algorithm
-    elif approach.value == PrimalityTestingApproach.exhaustive:
+    elif approach.value == PrimalityTestingApproach.EXHAUSTIVE:
         # Reference for more details:
         # https://github.com/joerick/pyinstrument
         # TODO: perform profiling on the execution of the primality test
