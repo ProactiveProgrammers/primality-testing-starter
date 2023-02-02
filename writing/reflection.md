@@ -53,7 +53,7 @@ TODO: Make sure that you refer to the online description of this project at:
 
 https://proactiveprogrammers.com/data-abstraction/engineering-efforts/primality-testing/
 
-TODO: Use the description of the T_Delta variable, or the percentage change in
+TODO: Use the description of the `T_Delta` variable, or the percentage change in
 the execution time when running `primality` in efficient mode instead of
 exhaustive, when you are describing your performance analysis. That is, you
 should be able to use the equation in the project description to explain how
