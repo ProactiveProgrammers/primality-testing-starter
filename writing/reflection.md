@@ -4,6 +4,8 @@ TODO: Please delete all of the TODO markers from this file so that you have a
 professionally formatted and organized reflection that would be suitable for
 posting on a public web site.
 
+TODO: Delete the phrase "Add Your Name Here" and then add your name.
+
 ## Add Your Name Here
 
 ## Program Output
