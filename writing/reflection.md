@@ -71,9 +71,12 @@ TODO: Write at least one paragraph to explain the requested source code
 TODO: Use a fenced code block to provide the requested source code
 TODO: Write at least one paragraph to explain the requested source code
 
+## Professional Development
+
 ### How does the `pyinstrument` tool help you to evaluate the performance of a Python program?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
+
 ### What was the greatest challenge that you faced when completing this assignment?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
